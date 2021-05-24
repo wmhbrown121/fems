@@ -48,5 +48,4 @@ public class Book {
         this.condition = condition;
     }
 
-
 }

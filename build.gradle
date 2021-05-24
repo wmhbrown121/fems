@@ -4,7 +4,7 @@ plugins {
 	id 'java'
 }
 
-group = 'dev.brown.'
+group = 'dev.brown'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
 
@@ -22,9 +22,8 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+	implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-openfeign', version: '3.0.0'
-
 }
 
 dependencyManagement {

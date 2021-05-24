@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: lms-fems
+
+---
+spring:
+  profiles: dev
+
+---
+spring:
+  profiles: cloud
+
+---
+spring:
+  profiles: local, default
+server:
+  port: 8081
+  error:
+    incude-message: always
